@@ -1,0 +1,39 @@
+# Gradle files
+.gradle/
+build/
+**/build/
+
+# Local configuration
+local.properties
+
+# IntelliJ files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Android Studio captures
+captures/
+.externalNativeBuild/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Generated files
+*.apk
+*.ap_
+*.dex
+*.class
+
+# Kotlin/Gradle cache
+.gradle/
+gradle/wrapper/temp_gradle/
+gradle/wrapper/gradle-8.0-bin.zip
+gradle/wrapper/gradle-8.0/
+
+# GitHub Copilot editor metadata
+.github/
