@@ -1,0 +1,8 @@
+<resources>
+    <color name="screen_background">#D7F26A</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="preview_background">#111111</color>
+    <color name="text_primary">#101010</color>
+    <color name="text_secondary">#334155</color>
+    <color name="overlay_stroke">#EF4444</color>
+</resources>

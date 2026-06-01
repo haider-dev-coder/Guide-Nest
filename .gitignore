@@ -1,0 +1,52 @@
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# Gradle/Android build output
+.gradle/
+.gradle-home/
+.gradle-user-home/
+build/
+app/build/
+local.properties
+captures/
+.cxx/
+*.apk
+*.aab
+*.ap_
+output.json
+gradle/wrapper/*.zip
+
+# Python/backend caches and logs
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+backend/.ultralytics/
+backend/*.log
+*.out.log
+*.err.log
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+*.keystore
+*.jks
+keystore.properties
+google-services.json
+app/google-services.json
+app/src/**/google-services.json
+
+# Large local artifacts and generated docs
+*.pt
+*.pdf
+gradle/wrapper/temp_gradle/
