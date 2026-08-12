@@ -114,20 +114,6 @@ pytest
 Android:
 Run tests from Android Studio or with Gradle as needed.
 
-Security Notes
-Do not commit real .env files, keystores, signing configs, or API secrets.
-Use backend/.env.example only as a template.
-Keep production backend endpoints and credentials outside the repo when possible.
-Serve production traffic over HTTPS.
-Production Checklist
-Set a real production backend URL in app/build.gradle
-Restrict CORS in the backend
-Use HTTPS for the backend
-Test on both emulator and physical device
-Validate speech guidance and camera behavior in real scenarios
-Review logs and error handling before release
-Documentation
-Additional project documentation is included in:
 
 APP_DOCUMENTATION.md
 QUICK_REFERENCE.md
